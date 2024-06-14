@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "backgroundColor": "#e1cede",
+				"navigationBarBackgroundColor":"#0BCF67" ,
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "uniapp-test"
+			}
+		}
+	    
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+               "navigationBarBackgroundColor": "#0BCF67",
+               
+               "navigationBarTextStyle": "white",
+               "navigationBarTitleText": "个人中心",
+               "enablePullDownRefresh": true,
+               "navigationStyle": "custom"
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"selectedColor": "#0BCF67",
+		"color": "#666",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/indexed.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/mine.png",
+				"selectedIconPath": "static/mineded.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"maxWidth": 750,//控制最大宽度
+		"rpxCalcMaxDeviceWidth": 750, // rpx 计算所支持的最大设备宽度，单位 px，默认值为 960
+		"rpxCalcBaseDeviceWidth": 560, // rpx 计算使用的基准设备宽度，设备实际宽度超出 rpx 计算所支持的最大设备宽度时将按基准宽度计算，单位 px，默认值为 375
+		"rpxCalcIncludeWidth": 9999, // rpx 计算特殊处理的值，始终按实际的设备宽度计算，单位 rpx，默认值为 750
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

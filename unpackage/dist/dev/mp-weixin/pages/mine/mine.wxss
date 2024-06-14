@@ -1,0 +1,35 @@
+
+.content.data-v-dcbcfe34{
+	padding: 0 60rpx;
+}
+.custom-style.data-v-dcbcfe34{
+	font-size:20rpx;
+	padding:0;
+	padding: 0rpx 10rpx;
+	background-color:#0BCF67;
+	color:#fff
+}
+.un-activate.data-v-dcbcfe34{
+	font-size: 24rpx;
+}
+.login-btn.data-v-dcbcfe34{
+	width:70%;
+	height:90rpx;
+	line-height: 90rpx;
+	background-color: #0BCF67;color:#fff;
+	font-weight: 500;
+	border-radius: 50rpx;
+	margin-top:200rpx;
+	margin-bottom:30rpx;
+}
+.auth-title.data-v-dcbcfe34 {
+  color: #585858;
+  font-size: 34rpx;
+  margin-bottom: 40rpx;
+}
+.auth-subtitle.data-v-dcbcfe34 {
+  color: #888;
+  margin-bottom: 88rpx;
+  font-size: 28rpx;
+}
+

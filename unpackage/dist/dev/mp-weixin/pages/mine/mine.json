@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#0BCF67",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
+}

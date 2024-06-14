@@ -1,0 +1,17 @@
+{
+  "navigationBarBackgroundColor": "#0BCF67",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "uniapp-test",
+  "usingComponents": {
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-notice-bar": "/uni_modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-count-down": "/uni_modules/uview-ui/components/u-count-down/u-count-down",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "keyboard": "/components/keyboard/keyboard",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "needknow": "/components/needknow",
+    "confirmbox": "/components/confirmBox",
+    "my-message": "/components/message/messageLog"
+  }
+}
